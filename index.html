@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的影片網站</title>
+    <style>
+        body { margin: 0; padding: 20px; background: #000; font-family: -apple-system, sans-serif; }
+        .video-container { max-width: 100%; margin: 0 auto; background: #000; }
+        video { width: 100%; height: auto; border-radius: 8px; }
+        .controls { margin-top: 10px; text-align: center; color: white; }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <video controls poster="poster.jpg"> <!-- 如果有封面圖，替換 poster -->
+            <source src="video.mp4" type="video/mp4">
+            您的瀏覽器不支援影片播放。
+        </video>
+        <div class="controls">
+            <h2>影片標題</h2>
+            <p>描述：這是我的上傳影片。</p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
